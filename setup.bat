@@ -24,6 +24,8 @@ call ng g s services/api-client/clients/clients
 
 call ng g s services/api-client/schedules/schedules
 
+
+
 type nul > src/app/services/idialog-manager.service.ts
 type nul > src/app/services/isnackbar-manager.service.ts
 type nul > src/app/services/service.token.ts
@@ -31,7 +33,13 @@ type nul > src/app/services/service.token.ts
 type nul > src/app/services/api-client/clients/iclients.service.ts
 type nul > src/app/services/api-client/clients/client.models.ts
 
+type nul > src/app/services/api-client/schedules/ischedules.service.ts
 type nul > src/app/services/api-client/schedules/schedules.service.ts
 type nul > src/app/services/api-client/schedules/schedule.models.ts
+
+type nul > src/app/clients/components/client-table/custom-paginator.ts
+
+mkdir src/environments
+type nul > src/environments/environment.ts
 
 call npm install @angular/cdk bootstrap ngx-mask

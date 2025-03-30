@@ -1,0 +1,146 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Ana Clara Rodrigues",
+      "email": "ana.rodrigues@example.com",
+      "phone": "11987654321"
+    },
+    {
+      "id": "2",
+      "name": "Bruno Fernandes",
+      "email": "bruno.fernandes@example.com",
+      "phone": "21987654322"
+    },
+    {
+      "id": "3",
+      "name": "Camila Oliveira",
+      "email": "camila.oliveira@example.com",
+      "phone": "31987654323"
+    },
+    {
+      "id": "4",
+      "name": "Daniel Pereira",
+      "email": "daniel.pereira@example.com",
+      "phone": "41987654324"
+    },
+    {
+      "id": "5",
+      "name": "Elisa Costa",
+      "email": "elisa.costa@example.com",
+      "phone": "51987654325"
+    },
+    {
+      "id": "6",
+      "name": "Felipe Gomes",
+      "email": "felipe.gomes@example.com",
+      "phone": "61987654326"
+    }
+  ],
+  "schedules": [
+    {
+      "year": 2025,
+      "month": 3,
+      "scheduledAppointments": [
+        {
+          "id": "1",
+          "clientId": "1",
+          "clientName": "Ana Clara Rodrigues",
+          "day": 30,
+          "startAt": "2025-03-29T22:00:45.705Z",
+          "endAt": "2025-03-29T22:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "scheduledAppointments": [
+        {
+          "id": "1",
+          "clientId": "1",
+          "clientName": "Ana Clara Rodrigues",
+          "day": 29,
+          "startAt": "2025-04-29T22:00:45.705Z",
+          "endAt": "2025-04-29T22:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "scheduledAppointments": [
+        {
+          "id": "2",
+          "clientId": "2",
+          "clientName": "Bruno Fernandes",
+          "day": 29,
+          "startAt": "2025-05-29T17:00:45.705Z",
+          "endAt": "2025-05-29T17:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "scheduledAppointments": [
+        {
+          "id": "3",
+          "clientId": "3",
+          "clientName": "Camila Oliveira",
+          "day": 29,
+          "startAt": "2025-06-29T18:00:45.705Z",
+          "endAt": "2025-06-29T18:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "scheduledAppointments": [
+        {
+          "id": "4",
+          "clientId": "4",
+          "clientName": "Daniel Pereira",
+          "day": 29,
+          "startAt": "2025-07-29T19:00:45.705Z",
+          "endAt": "2025-07-29T19:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "scheduledAppointments": [
+        {
+          "id": "5",
+          "clientId": "5",
+          "clientName": "Elisa Costa",
+          "day": 29,
+          "startAt": "2025-08-29T20:00:45.705Z",
+          "endAt": "2025-08-29T20:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "scheduledAppointments": [
+        {
+          "id": "6",
+          "clientId": "6",
+          "clientName": "Felipe Gomes",
+          "day": 29,
+          "startAt": "2025-09-29T21:00:45.705Z",
+          "endAt": "2025-09-29T21:30:45.705Z"
+        }
+      ]
+    },
+    {
+      "id": "2c41",
+      "clientId": "6",
+      "startAt": "2025-03-30T16:00:00.000Z",
+      "endAt": "2025-03-30T16:00:00.000Z"
+    }
+  ]
+}

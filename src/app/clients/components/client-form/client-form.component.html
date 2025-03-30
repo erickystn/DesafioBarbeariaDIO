@@ -1,0 +1,37 @@
+<form #form="ngForm" (ngSubmit)="onSubmit()" class="m-auto col-lg-6">
+  <div class="row">
+
+      <mat-form-field class="col-12 mb-3">
+        <mat-label id="name">Nome</mat-label>
+        <input matInput type="text"  id="name" name="name" [(ngModel)]="client.name" #nameModel="ngModel"  required/>
+        @if (nameModel.hasError('required')) {
+          <mat-error>Informe o nome do cliente</mat-error>
+        }
+      </mat-form-field>
+
+      <mat-form-field class="col-12 mb-3">
+        <mat-label id="email">Email</mat-label>
+        <input matInput type="email" id="email" name="email"  [(ngModel)]="client.email" #emailModel="ngModel"  required email/>
+        @if (emailModel.hasError('required') || emailModel.hasError('email')) {
+          <mat-error>Informe um email válido</mat-error>
+        }
+      </mat-form-field>
+
+      <mat-form-field class="col-12 mb-3">
+        <mat-label id="phone">Telefone</mat-label>
+        <input matInput id="phone" name="phone" type="text" mask="(00) 00000-0000" [(ngModel)]="client.phone" #phonelModel="ngModel"  required />
+        @if (phonelModel.hasError('required') || phonelModel.hasError('mask')) {
+        <mat-error>Informe um telefone válido</mat-error>
+        }
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button type="submit" mat-flat-button [disabled]="form.invalid"> Salvar </button>
+      </div>
+    </div>
+
+
+
+</form>
